@@ -1,0 +1,60 @@
+/* :root {
+
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container > div {
+    background-color: red;
+    border: solid yellow 2px
+    /* height: 80px;
+    width: 80px; */
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: max-content 1fr
+}
+
+.dashboard {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+
+    display: grid;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.header {
+    grid-column: 2 / -1;
+
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.board {
+    padding: 1rem;
+    
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-rows: max-content 1fr max-content 1fr;
+    gap: 1rem;
+}
+
+.projectboard {
+    grid-column: 1 / 2;
+    grid-row: 2 / -1
+}
