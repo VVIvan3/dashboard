@@ -81,6 +81,24 @@ li a {
     filter: drop-shadow(0px 0px 2px black);
 }
 
+.searchbaricon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: -3px;
+}
+
+.searchinput {
+    background: var(--bg-grayish);
+    border: none;
+    padding: 4px 25%;
+    border-radius: 100px;
+}
+
+.greeting {
+    font-weight: bolder;
+    font-size: larger;
+}
+
 button {
     border: none;
     background: var(--main-blue);
