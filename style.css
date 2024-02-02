@@ -33,11 +33,32 @@ body {
 
     display: grid;
     gap: 2rem;
-    padding-left: 2rem;
+    padding-left: 2.5rem;
     padding-top: 1rem;
 
     background: var(--main-blue);
     z-index: 1;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.linkimg {
+    width: 1.25rem;
+    height: 1.25rem;
+    filter: invert(10);
+    vertical-align: -3px;
+    padding-right: 2%;
+    
 }
 
 .header {
