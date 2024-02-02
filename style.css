@@ -99,6 +99,44 @@ li a {
     font-size: larger;
 }
 
+.profile {
+    justify-self: end;
+    margin-right: 1rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    align-items: center;
+    gap: 1rem;
+    justify-items: start;
+}
+
+.notification {
+    width: 2rem;
+    height: 2rem;
+}
+
+.profilepictureholder {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--item-orange);
+}
+
+.username {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.controls {
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
 button {
     border: none;
     background: var(--main-blue);
