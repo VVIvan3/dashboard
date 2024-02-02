@@ -3,6 +3,7 @@
   --bg-white: #fafafa;
   --bg-grayish: #e4e4e7;
   --item-orange: #f59e0b;
+  --item-shadow: #a3a3a3;
 }
 
 * {
@@ -35,6 +36,7 @@ body {
     padding-top: 1rem;
 
     background: var(--main-blue);
+    z-index: 1;
 }
 
 .header {
@@ -46,6 +48,7 @@ body {
     background: var(--bg-white);
     padding: 1rem;
     gap: 1rem;
+    filter: drop-shadow(0px 0px 2px black);
 }
 
 button {
@@ -90,6 +93,7 @@ button {
     align-items: center;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 1px 1px 5px var(--item-shadow);
 
     position: relative;
 }
@@ -119,6 +123,7 @@ button {
     border-radius: 10px;
     margin-right: 20px;
     font-size: 0.85rem;
+    box-shadow: 1px 1px 5px var(--item-shadow);
 }
 
 .trends {
@@ -130,5 +135,6 @@ button {
     border-radius: 10px;
     margin-right: 20px;
     font-size: 0.85rem;
+    box-shadow: 1px 1px 5px var(--item-shadow);
 }
 
