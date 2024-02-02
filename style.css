@@ -64,7 +64,7 @@ button {
 
     display: grid;
     grid-template-columns: 6fr 1fr;
-    grid-template-rows: max-content 1fr max-content 1fr;
+    grid-template-rows: max-content 1fr max-content max-content 1fr;
     gap: 1rem;
 
     background: var(--bg-grayish);
