@@ -175,3 +175,9 @@ button {
     box-shadow: 1px 1px 5px var(--item-shadow);
 }
 
+.announcementtitle,
+.trendtitle,
+.projecttitle {
+    font-weight: bolder;
+    font-size: larger;
+}
