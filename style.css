@@ -9,17 +9,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica;
 }
 
 body {
     height: 100vh;
     width: 100vw;
 }
-
-/* .container > div {
-    background-color: red;
-    border: solid yellow 2px
-} */
 
 .container {
     display: grid;
@@ -79,7 +75,15 @@ button {
     grid-row: 2 / -1;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 300px));
+
+}
+
+.projectitem {
+
+    background: var(--bg-white);
+
 }
 
 .announcements {
@@ -87,6 +91,10 @@ button {
     grid-template-columns: 1fr;
     gap: 16px;
     background: var(--bg-white);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 0.85rem;
 }
 
 .trends {
@@ -94,5 +102,9 @@ button {
     grid-template-columns: 1fr;
     gap: 8px;
     background: var(--bg-white);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 0.85rem;
 }
 
