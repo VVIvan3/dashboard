@@ -40,6 +40,14 @@ body {
     z-index: 1;
 }
 
+.dashboardlogo {
+    filter: invert(10);
+}
+
+.dashboard h1 {
+    color: white;
+}
+
 li {
     list-style: none;
     margin-bottom: 1rem;
