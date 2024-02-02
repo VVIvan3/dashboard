@@ -4,6 +4,7 @@
   --bg-grayish: #e4e4e7;
   --item-orange: #f59e0b;
   --item-shadow: #a3a3a3;
+  --item-gray-text: #737373;
 }
 
 * {
@@ -107,6 +108,16 @@ button {
     left: -1%;
 
     position: absolute;
+}
+
+.itemtitle {
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.itemtext {
+    color: var(--item-gray-text);
+    margin-left: 5%;
 }
 
 .projecticons {
