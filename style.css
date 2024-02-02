@@ -2,7 +2,7 @@
   --main-blue: #7dd3fc;
   --bg-white: #fafafa;
   --bg-grayish: #e4e4e7;
-
+  --item-orange: #f59e0b;
 }
 
 * {
@@ -76,7 +76,8 @@ button {
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
-    grid-template-rows: repeat(auto-fit, minmax(200px, 300px));
+    grid-template-rows: repeat(auto-fit, minmax(120px, 175px));
+    gap: 5vh;
 
 }
 
@@ -84,6 +85,29 @@ button {
 
     background: var(--bg-white);
 
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.projectitem::before {
+    content: '';
+    width: 3%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background: var(--item-orange);
+    left: -1%;
+
+    position: absolute;
+}
+
+.projecticons {
+    justify-self: end;
+    align-self: end;
 }
 
 .announcements {
